@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+ .b1{
+  color:white;
+  background-color: #61b6fb;
+  
+} 
+
+.text1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 150px;
+}
