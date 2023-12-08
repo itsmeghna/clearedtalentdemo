@@ -1,0 +1,22 @@
+img{
+    width: 300px;
+    height: 150px;
+    height: min-content;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 50px;
+
+}
+.mainnav{
+  
+    
+}
+.demo{
+    padding-right: 80px;
+}
+button{
+    border-radius: 5%;
+}
+a:hover{
+    text-decoration: underline;
+}

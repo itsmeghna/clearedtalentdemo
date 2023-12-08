@@ -1,3 +1,6 @@
+body {
+  background-color: #eee;
+}
 .App {
   text-align: center;
 }
@@ -37,13 +40,29 @@
   }
 }
 
- .b1{
-  color:white;
-  background-color: #61b6fb;
-  
-} 
-
-.text1{
+.b1 {
+  color: #fff;
+  background: #009efd 0 0 no-repeat padding-box;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1607843137254902);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
+.b1:hover {
+  color: white;
+  background-color: rgb(43, 169, 43);
+}
+.text1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 150px;
 }
+
+.mnav {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 99;
+  box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.34);
+}
+
+
