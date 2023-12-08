@@ -65,4 +65,15 @@ body {
   box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.34);
 }
 
+@media only screen and (max-width: 479px) {
+  .navmini {
+    display: block;
+  }
 
+  .collapse:not(.show) {
+    display: unset;
+  }
+  .main {
+    margin-top: 115% !important;
+  }
+}
